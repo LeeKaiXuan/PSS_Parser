@@ -18,12 +18,12 @@
 			"installGroovy": "false",
 			"groovyVersion": "latest"
 		},
-		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {},
-		"ghcr.io/devcontainers/features/node:3": {
+		"ghcr.io/devcontainers/features/node:1": {
 			"version": "lts",
 			"nodeGypDependencies": "true",
 			"nvmVersion": "latest"
-		}
+		},
+		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
