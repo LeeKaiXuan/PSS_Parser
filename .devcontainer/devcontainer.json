@@ -19,13 +19,13 @@
 			"groovyVersion": "latest"
 		},
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
+	"postCreateCommand": "sdk default java 11.0.22-ms"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
