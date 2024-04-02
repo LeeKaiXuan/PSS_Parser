@@ -7,9 +7,16 @@
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "11.0.22-tem",
+			"version": "11",
+			"jdkDistro": "ms",
 			"installMaven": "true",
-			"installGradle": "false"
+			"mavenVersion": "latest",
+			"installGradle": "false",
+			"gradleVersion": "latest",
+			"installAnt": "false",
+			"antVersion": "latest",
+			"installGroovy": "false",
+			"groovyVersion": "latest"
 		},
 		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
 	}
